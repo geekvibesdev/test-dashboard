@@ -1,0 +1,80 @@
+📄 public/css/pedido.css
+css
+Copiar
+Editar
+:root {
+    --primary: #efb653;
+    --blue-org: #fbd799;
+    --gray: #F2F4F7;
+    --gray-2: #cfcfcf;
+    --white: #fff;
+}
+
+/* Contenedor general con scroll horizontal */
+.pedido-wrapper {
+    overflow-x: auto;
+    padding-bottom: 20px;
+    background-color: var(--gray);
+    padding: 20px;
+}
+
+/* Encabezados */
+h1, h2 {
+    color: #333;
+    margin-top: 30px;
+}
+
+/* Tablas generales */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    min-width: 800px;
+    background-color: var(--white);
+    border: 1px solid var(--gray-2);
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+/* Celdas */
+th, td {
+    border: 1px solid var(--gray-2);
+    padding: 8px;
+    vertical-align: top;
+}
+
+/* Encabezados de tabla */
+th {
+    background-color: var(--blue-org);
+    color: #333;
+    text-align: left;
+}
+
+/* Subtablas */
+.sub-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px 0;
+    background-color: var(--white);
+}
+
+.sub-table th, .sub-table td {
+    border: 1px solid var(--gray-2);
+    padding: 4px;
+    font-size: 12px;
+    vertical-align: top;
+}
+
+.sub-table th {
+    background-color: var(--gray);
+    color: #333;
+}
+
+.sub-table tr:nth-child(even) {
+    background-color: var(--gray);
+}
+
+/* Fondo alternado en filas grandes también */
+table tr:nth-child(even) {
+    background-color: var(--gray);
+}

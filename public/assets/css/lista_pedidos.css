@@ -1,0 +1,39 @@
+.dataTables_wrapper .dt-buttons {
+    margin-bottom: 10px;
+  }
+  
+  button.dt-button {
+    background-color: #efb653;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button.dt-button:hover {
+    background-color: #dca242;
+  }
+
+/* Tabla responsive */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Encabezado de la tabla */
+.titulo-tabla {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* DataTables scroll */
+.dataTables_wrapper {
+    overflow-x: auto;
+}
+
+table.dataTable {
+    width: 100% !important;
+}
+
