@@ -66,5 +66,15 @@
 # LOGGER
 #--------------------------------------------------------------------
 
-# logger.threshold = 
+# logger.threshold =
+
+#--------------------------------------------------------------------
+# OLLAMA (Agente de reporte - NL a SQL)
+#--------------------------------------------------------------------
+# Local: http://localhost:11434
+# Con Cloudflare Tunnel (tu maquina): usar la URL que da cloudflared (ej. https://xxx.trycloudflare.com)
+# En CapRover (VPS): poner la URL del tunnel de Ollama como ollama_base_url
+# ollama_base_url = 'http://localhost:11434'
+# ollama_model = 'qwen3-coder-next'
+# ollama_timeout = 60 
 

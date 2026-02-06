@@ -202,6 +202,10 @@ $routes->group('', ['filter' => 'auth:admin'], function($routes) {
 
     $routes->get('/informes/gastos-paqueteria', 'Reporte::gastosPaqueteria');
 
+    /* Agente de reporte (Ollama) */
+    $routes->get('/informes/agente-reporte', 'AgenteReporte::index');
+    $routes->post('/informes/agente-reporte/ask', 'AgenteReporte::ask');
+
     /* Productos */
     $routes->get('/settings/productos', 'ProductoCosto::index');
     $routes->get('/settings/productos/new', 'ProductoCosto::newProductoCosto');

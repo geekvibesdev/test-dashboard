@@ -339,6 +339,12 @@ class Assets extends BaseController
             ],
             'admin_users_new' => [],
             'admin_users_edit' => [],
+            'agente_reportes' => [
+                'css' => [],
+                'js' => [
+                    base_url('assets/js/agente-reporte.js'),
+                ],
+            ],
         ];
     }
 }

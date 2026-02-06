@@ -51,6 +51,11 @@
                     <i class="ti ti-chart-bar"></i> Reporte de ventas
                   </a>
                 </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link" href="<?= base_url('informes/agente-reporte') ?>">
+                    <i class="ti ti-robot"></i> Agente de reporte
+                  </a>
+                </li>
               </ul>
             </div>
           </div>

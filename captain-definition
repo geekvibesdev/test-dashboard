@@ -14,6 +14,8 @@
   						"RUN chown -R www-data:www-data /var/www/html/writable",
         				"RUN chown -R www-data:www-data /var/www/html/public/uploads",
   						"RUN a2enmod rewrite",
-  						"RUN service apache2 restart"
+  						"RUN service apache2 restart",
+  						"RUN chmod +x /var/www/html/scripts/docker-entrypoint.sh",
+  						"ENTRYPOINT [\"/var/www/html/scripts/docker-entrypoint.sh\"]"
                     ]
 }
